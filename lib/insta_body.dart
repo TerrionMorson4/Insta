@@ -7,7 +7,6 @@ import 'package:insta/insta_list.dart';
 class InstaBody extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
-    
     return new Column(
       children: <Widget>[
         Expanded(
@@ -18,69 +17,4 @@ class InstaBody extends StatelessWidget{
               );
             }
           
-          }
-          
-          class InstaStories {
-}                                          
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+          }            

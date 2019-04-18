@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'package:insta/insta_body.dart';
 
 class InstaHome extends StatelessWidget{
 
@@ -29,17 +29,17 @@ class InstaHome extends StatelessWidget{
 
     return new Scaffold(
       appBar: topBar,
-      body:new Container(),
+      body:InstaBody(),
 bottomNavigationBar: new Container(
   color: Colors.white,
   alignment: Alignment.center,
-  height: 50.0,
+  height: 64.0,
   child: new BottomAppBar(
     child: new Row(children: <Widget>[
       new IconButton(
         icon: Icon(
 Icons.home
-        ),
+        ), onPressed: () {},
       ),
       new IconButton(
         icon: Icon(

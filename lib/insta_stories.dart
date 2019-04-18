@@ -27,7 +27,7 @@ child: new ListView.builder(
           shape: BoxShape.circle,
           image: new DecorationImage(
             fit: BoxFit.fill,
-            image: new NetworkImage("https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/01_of_spades_A.svg/1200px-01_of_spades_A.svg.png")
+            image: new NetworkImage("https://cdn170.picsart.com/upscale-239939572031212.png?r1024x1024")
           ),
         ),
         margin: const EdgeInsets.symmetric(horizontal: 8.0),
